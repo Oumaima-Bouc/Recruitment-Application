@@ -1,0 +1,43 @@
+Running Gradle task 'assembleDebug'...                          
+lib/screens/settings_screen.dart:139:50: Error: Not a constant expression.
+                      title: AppLocalizations.of(context)!.notLoggedIn,
+                                                 ^^^^^^^
+lib/screens/settings_screen.dart:139:47: Error: Method invocation is not a constant expression.
+                      title: AppLocalizations.of(context)!.notLoggedIn,
+                                              ^^
+lib/screens/settings_screen.dart:356:84: Error: Expected ';' after this.
+                  SnackBar(content: Text(AppLocalizations.of(context)!.comingSoon))),
+                                                                                   ^
+lib/screens/settings_screen.dart:356:85: Error: Expected an identifier, but got ','.
+Try inserting an identifier before ','.
+                  SnackBar(content: Text(AppLocalizations.of(context)!.comingSoon))),
+                                                                                    ^
+lib/screens/settings_screen.dart:356:85: Error: Unexpected token ';'.
+                  SnackBar(content: Text(AppLocalizations.of(context)!.comingSoon))),
+                                                                                    ^
+lib/screens/settings_screen.dart:423:61: Error: The getter 'ok' isn't defined for the type 'AppLocalizations'.
+ - 'AppLocalizations' is from 'package:khedmni/l10n/app_localizations.dart' ('lib/l10n/app_localizations.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'ok'.
+                  child: Text(AppLocalizations.of(context)!.ok)),
+                                                            ^^
+lib/screens/settings_screen.dart:139:58: Error: Not a constant expression.
+                      title: AppLocalizations.of(context)!.notLoggedIn,
+                                                         ^
+Target kernel_snapshot_program failed: Exception
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileFlutterBuildDebug'.
+> Process 'command 'C:\flutter\bin\flutter.bat'' finished with non-zero exit value 1
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 10s
+Running Gradle task 'assembleDebug'...                             11.4s
+Gradle task assembleDebug failed with exit code 1

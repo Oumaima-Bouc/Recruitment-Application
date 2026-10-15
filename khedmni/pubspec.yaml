@@ -1,0 +1,59 @@
+ name: khedmni
+ description: "A new Flutter project."
+ publish_to: 'none'
+
+ version: 1.0.0+1
+
+ environment:
+  sdk: ">=3.9.0 <4.0.0"
+
+ dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  http: ^1.2.0
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.3.2
+  file_picker: ^8.0.0
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+  intl: ^0.20.2
+  shared_preferences: ^2.2.3
+  bcrypt: ^1.1.3
+  url_launcher: ^6.3.0
+  open_filex: ^4.5.1
+  sqflite_common_ffi: ^2.3.0
+  app_links: ^6.3.2
+
+
+ dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  bloc_test: ^9.1.7
+  flutter_launcher_icons: ^0.14.1
+
+ flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo-of-app.png"
+  min_sdk_android: 21
+
+ flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/
+    - assets/images/Logo_Khedmni.png
+    - assets/images/logo-khedmni-dark.png
+    - assets/images/Logo_Google.jpg
+    - assets/images/leena.png
+    - assets/images/office.jpg
+    - assets/photos/google.png
+    - assets/photos/linkedin.png
+    - assets/photos/logo.png
+    - assets/photos/logo1.png
